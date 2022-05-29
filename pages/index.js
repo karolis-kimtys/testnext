@@ -107,12 +107,30 @@ export default function Home({ quotes }) {
       <main className={styles.main}>
         <div className={styles.title}>Next.js sample code</div>
 
+        <div className={styles.links}>
+          <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+            Next.js
+          </a>
+          <a href="https://vercel.com/" target="_blank" rel="noreferrer">
+            Vercel
+          </a>
+          <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+            MongoDB
+          </a>
+        </div>
+
         <div className={styles.ssr}>
           <h4>This is Server Side Rendered Section.</h4>
 
-          <a href="https://nextjs.org/docs/basic-features/pages#server-side-rendering">
-            Read more
-          </a>
+          <div className={styles.links}>
+            <a
+              href="https://nextjs.org/docs/basic-features/pages#server-side-rendering"
+              target="_blank"
+              rel="noreferrer">
+              Read more
+            </a>
+          </div>
+
           <h5>
             Below quote has been fetched from MongoDB database from selection of
             70000 quotes. On each page refresh data is prefetched and rendered
@@ -132,6 +150,18 @@ export default function Home({ quotes }) {
             Real time Bitcoin data is fetched from Ably and displayed using
             Chart.js. Ably uses websockets to fetch data and is a real time.
           </h5>
+          <div className={styles.links}>
+            <a
+              href="https://ably.com/solutions/realtime?campaignid=17168938939&adgroupid=133283837221&adid=596613922454&utm_term=ably&utm_campaign=Brand+-+Ably_BMM&utm_source=adwords&utm_medium=ppc&hsa_acc=3510861004&hsa_cam=17168938939&hsa_grp=133283837221&hsa_ad=596613922454&hsa_src=g&hsa_tgt=kwd-317777599378&hsa_kw=ably&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjws8yUBhA1EiwAi_tpEbLiuhQFgi0Jx1ZqAKVkpqWVvYOBCtYc0hNtJuUzxDBsVIoumo6ESRoC2uoQAvD_BwE"
+              target="_blank"
+              rel="noreferrer">
+              Ably
+            </a>
+            <a href="https://www.chartjs.org/" target="_blank" rel="noreferrer">
+              Chart.js
+            </a>
+          </div>
+
           <div className={styles.box}>
             <Line data={data} width={500} height={400} options={options} />
           </div>
