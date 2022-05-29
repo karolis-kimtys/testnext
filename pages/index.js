@@ -117,6 +117,15 @@ export default function Home({ quotes }) {
           <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
             MongoDB
           </a>
+          <a
+            href="https://ably.com/solutions/realtime?campaignid=17168938939&adgroupid=133283837221&adid=596613922454&utm_term=ably&utm_campaign=Brand+-+Ably_BMM&utm_source=adwords&utm_medium=ppc&hsa_acc=3510861004&hsa_cam=17168938939&hsa_grp=133283837221&hsa_ad=596613922454&hsa_src=g&hsa_tgt=kwd-317777599378&hsa_kw=ably&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjws8yUBhA1EiwAi_tpEbLiuhQFgi0Jx1ZqAKVkpqWVvYOBCtYc0hNtJuUzxDBsVIoumo6ESRoC2uoQAvD_BwE"
+            target="_blank"
+            rel="noreferrer">
+            Ably
+          </a>
+          <a href="https://www.chartjs.org/" target="_blank" rel="noreferrer">
+            Chart.js
+          </a>
         </div>
 
         <div className={styles.ssr}>
@@ -150,17 +159,6 @@ export default function Home({ quotes }) {
             Real time Bitcoin data is fetched from Ably and displayed using
             Chart.js. Ably uses websockets to fetch data and is a real time.
           </h5>
-          <div className={styles.links}>
-            <a
-              href="https://ably.com/solutions/realtime?campaignid=17168938939&adgroupid=133283837221&adid=596613922454&utm_term=ably&utm_campaign=Brand+-+Ably_BMM&utm_source=adwords&utm_medium=ppc&hsa_acc=3510861004&hsa_cam=17168938939&hsa_grp=133283837221&hsa_ad=596613922454&hsa_src=g&hsa_tgt=kwd-317777599378&hsa_kw=ably&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjws8yUBhA1EiwAi_tpEbLiuhQFgi0Jx1ZqAKVkpqWVvYOBCtYc0hNtJuUzxDBsVIoumo6ESRoC2uoQAvD_BwE"
-              target="_blank"
-              rel="noreferrer">
-              Ably
-            </a>
-            <a href="https://www.chartjs.org/" target="_blank" rel="noreferrer">
-              Chart.js
-            </a>
-          </div>
 
           <div className={styles.box}>
             <Line data={data} width={500} height={400} options={options} />
