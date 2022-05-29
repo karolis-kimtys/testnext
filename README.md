@@ -1,6 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+[View DEMO](https://testnext-pi.vercel.app/)
+[View Code](https://github.com/karolis-kimtys/testnext)
+
 First, run the development server:
+
+Register a new account with Ably to get API key to access realtime data.
+[Ably](https://ably.com/)
+[Bitcoin Real Time Data Subscription](https://ably.com/hub/ably-coindesk/bitcoin)
 
 ```bash
 # navigate to your project
